@@ -1,0 +1,70 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}    
+
+:root{
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey700: hsl(0, 0%, 20%);
+    --Grey800: hsl(0, 0%, 12%);
+    --Grey900: hsl(0, 0%, 8%);
+
+    --font-family: 'Inter', sans-serif;
+}  
+
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: var(--font-family);
+    background-color: var(--Grey900) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardBox{
+    background-color: var(--Grey800);
+    height: 38rem;
+    width: 23.9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    
+}
+.fotoPerfil{
+    border-radius: 50%;
+    height: 5.5rem;
+    margin: 2rem 1.4rem 1.4rem 1.4rem; 
+}
+p{
+    margin: 0.76rem;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    
+}
+.topOfCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 10px;
+}
+.bottomOfCard{
+    display: flex;
+    flex-direction: column;
+}
+a{
+    color: var(--White);
+    background-color: var(--Grey700);
+    text-decoration: none;
+    margin: 1rem;
+    width: 17.5rem;
+    height: 2rem;
+}
+
